@@ -10,15 +10,15 @@
 
 */
 SELECT 
-'' AS mdc_org_cd,  --医疗机构代码
-y.yzbxh AS odr_no,   --医嘱号
-y.yzzh AS odr_grp_no , --医嘱组号
-y.zyh AS inhos_no,   --住院号
-'' AS inhos_tms,  --住院次数
-y.brks AS dpt_cd,   --科室代码
-ks.ksmc AS dpt_nm,   --科室名称
-y.brbq wrd_cd ,  --病区代码
-ks.ksmc  AS wrd_nm ,  --病区名称
+	'' AS mdc_org_cd,  --医疗机构代码
+	y.yzbxh AS odr_no,   --医嘱号
+	y.yzzh AS odr_grp_no , --医嘱组号
+	y.zyh AS inhos_no,   --住院号
+	'' AS inhos_tms,  --住院次数
+	y.brks AS dpt_cd,   --科室代码
+	ks.ksmc AS dpt_nm,   --科室名称
+	y.brbq wrd_cd ,  --病区代码
+	ks.ksmc  AS wrd_nm ,  --病区名称
 y.xmid AS odr_itm_cd,  --医嘱项目代码
 y.yzmc AS odr_itm_nm , --医嘱项目名称
 y.xmlb oAS dr_itm_tp_cd,  --医嘱项目类型代码
